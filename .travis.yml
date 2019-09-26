@@ -2,5 +2,10 @@ osx_image: xcode11.0
 language: objective-c
 xcode_project: delete2.xcodeproj
 xcode_scheme: delete2
-xcode_sdk: iphonesimulator8.4
 
+env:
+  global:
+  - PROJECT=delete2
+  - SCHEME=delete2
+  - OS=11.4
+  - DEVICE="iPhone 8"
