@@ -1,0 +1,9 @@
+osx_image: xcode11.0
+language: objective-c
+env:
+  global:
+  - FRAMEWORK_NAME=GIGLibrary
+  - PROJECT=GIGLibrary
+  - SCHEME=GIGLibrary
+  - OS=11.4
+  - DEVICE="iPhone 8"
