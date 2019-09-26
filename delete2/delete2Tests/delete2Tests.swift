@@ -1,15 +1,15 @@
 //
-//  deleteTests.swift
-//  deleteTests
+//  delete2Tests.swift
+//  delete2Tests
 //
 //  Created by Eduardo Parada on 26/09/2019.
 //  Copyright © 2019 Gigigo. All rights reserved.
 //
 
 import XCTest
-@testable import delete
+@testable import delete2
 
-class deleteTests: XCTestCase {
+class delete2Tests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
