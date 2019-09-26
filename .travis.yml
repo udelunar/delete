@@ -1,7 +1,7 @@
 osx_image: xcode11.0
 language: objective-c
-xcode_project: delete2.xcodeproj
-xcode_scheme: delete2
+#xcode_project: delete2.xcodeproj
+#xcode_scheme: delete2
 
 env:
   global:
@@ -9,3 +9,6 @@ env:
   - SCHEME=delete2
   - OS=11.4
   - DEVICE="iPhone 8"
+
+script:
+  - set -o pipefail && xcodebuild -project $PROJECT.xcodeproj -scheme $SCHEME -sdk iphonesimulator -destination "platform=iOS Simulator,OS=$OS,name=$DEVICE" test | xcpretty
