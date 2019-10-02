@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23E0B2FB233CD7700067824F"
+               BlueprintIdentifier = "23EE7EFC23447B0900C317BF"
                BuildableName = "delete2Tests.xctest"
                BlueprintName = "delete2Tests"
-               ReferencedContainer = "container:delete2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23E0B306233CD7700067824F"
-               BuildableName = "delete2UITests.xctest"
-               BlueprintName = "delete2UITests"
                ReferencedContainer = "container:delete2.xcodeproj">
             </BuildableReference>
          </TestableReference>
