@@ -2,12 +2,11 @@
 //  delete2Tests.swift
 //  delete2Tests
 //
-//  Created by Eduardo Parada on 26/09/2019.
+//  Created by Eduardo Parada on 02/10/2019.
 //  Copyright © 2019 Gigigo. All rights reserved.
 //
 
 import XCTest
-@testable import delete2
 
 class delete2Tests: XCTestCase {
 
@@ -26,7 +25,7 @@ class delete2Tests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
