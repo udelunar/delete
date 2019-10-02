@@ -1,5 +1,5 @@
 #os: osx
-osx_image: xcode10.1 #xcode11.0
+osx_image: xcode11
 language: swift
 #xcode_project: delete2.xcodeproj
 #xcode_scheme: delete2
@@ -8,7 +8,7 @@ env:
   global:
   - PROJECT=delete2
   - SCHEME=delete2
-  - OS=11.4
+  - OS=13.0
   - DEVICE="iPhone 8"
 
 #script: xcodebuild clean build test -workspace delete2.xcodeproj/project.xcworkspace -scheme "delete2" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.4,name=iphone 8" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO

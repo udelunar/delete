@@ -13,26 +13,7 @@
 		23E0B2F1233CD76F0067824F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E0B2EF233CD76F0067824F /* Main.storyboard */; };
 		23E0B2F3233CD7700067824F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E0B2F2233CD7700067824F /* Assets.xcassets */; };
 		23E0B2F6233CD7700067824F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E0B2F4233CD7700067824F /* LaunchScreen.storyboard */; };
-		23E0B301233CD7700067824F /* delete2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0B300233CD7700067824F /* delete2Tests.swift */; };
-		23E0B30C233CD7700067824F /* delete2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0B30B233CD7700067824F /* delete2UITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		23E0B2FD233CD7700067824F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23E0B2DE233CD76F0067824F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23E0B2E5233CD76F0067824F;
-			remoteInfo = delete2;
-		};
-		23E0B308233CD7700067824F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23E0B2DE233CD76F0067824F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23E0B2E5233CD76F0067824F;
-			remoteInfo = delete2;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		23E0B2E6233CD76F0067824F /* delete2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delete2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +24,14 @@
 		23E0B2F2233CD7700067824F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23E0B2F5233CD7700067824F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23E0B2F7233CD7700067824F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23E0B2FC233CD7700067824F /* delete2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delete2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E0B300233CD7700067824F /* delete2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete2Tests.swift; sourceTree = "<group>"; };
 		23E0B302233CD7700067824F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23E0B307233CD7700067824F /* delete2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delete2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E0B30B233CD7700067824F /* delete2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete2UITests.swift; sourceTree = "<group>"; };
 		23E0B30D233CD7700067824F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		23E0B2E3233CD76F0067824F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23E0B2F9233CD7700067824F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23E0B304233CD7700067824F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				23E0B2E6233CD76F0067824F /* delete2.app */,
-				23E0B2FC233CD7700067824F /* delete2Tests.xctest */,
-				23E0B307233CD7700067824F /* delete2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,42 +111,6 @@
 			productReference = 23E0B2E6233CD76F0067824F /* delete2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		23E0B2FB233CD7700067824F /* delete2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23E0B313233CD7700067824F /* Build configuration list for PBXNativeTarget "delete2Tests" */;
-			buildPhases = (
-				23E0B2F8233CD7700067824F /* Sources */,
-				23E0B2F9233CD7700067824F /* Frameworks */,
-				23E0B2FA233CD7700067824F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23E0B2FE233CD7700067824F /* PBXTargetDependency */,
-			);
-			name = delete2Tests;
-			productName = delete2Tests;
-			productReference = 23E0B2FC233CD7700067824F /* delete2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		23E0B306233CD7700067824F /* delete2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23E0B316233CD7700067824F /* Build configuration list for PBXNativeTarget "delete2UITests" */;
-			buildPhases = (
-				23E0B303233CD7700067824F /* Sources */,
-				23E0B304233CD7700067824F /* Frameworks */,
-				23E0B305233CD7700067824F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23E0B309233CD7700067824F /* PBXTargetDependency */,
-			);
-			name = delete2UITests;
-			productName = delete2UITests;
-			productReference = 23E0B307233CD7700067824F /* delete2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +123,6 @@
 				TargetAttributes = {
 					23E0B2E5233CD76F0067824F = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					23E0B2FB233CD7700067824F = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 23E0B2E5233CD76F0067824F;
-					};
-					23E0B306233CD7700067824F = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 23E0B2E5233CD76F0067824F;
 					};
 				};
 			};
@@ -221,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				23E0B2E5233CD76F0067824F /* delete2 */,
-				23E0B2FB233CD7700067824F /* delete2Tests */,
-				23E0B306233CD7700067824F /* delete2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +152,6 @@
 				23E0B2F6233CD7700067824F /* LaunchScreen.storyboard in Resources */,
 				23E0B2F3233CD7700067824F /* Assets.xcassets in Resources */,
 				23E0B2F1233CD76F0067824F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23E0B2FA233CD7700067824F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23E0B305233CD7700067824F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,36 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23E0B2F8233CD7700067824F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23E0B301233CD7700067824F /* delete2Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23E0B303233CD7700067824F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23E0B30C233CD7700067824F /* delete2UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		23E0B2FE233CD7700067824F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23E0B2E5233CD76F0067824F /* delete2 */;
-			targetProxy = 23E0B2FD233CD7700067824F /* PBXContainerItemProxy */;
-		};
-		23E0B309233CD7700067824F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23E0B2E5233CD76F0067824F /* delete2 */;
-			targetProxy = 23E0B308233CD7700067824F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		23E0B2EF233CD76F0067824F /* Main.storyboard */ = {
@@ -373,7 +247,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -427,7 +301,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -445,7 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,92 +337,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		23E0B314233CD7700067824F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC8LXPEH26;
-				INFOPLIST_FILE = delete2Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delete2.app/delete2";
-			};
-			name = Debug;
-		};
-		23E0B315233CD7700067824F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC8LXPEH26;
-				INFOPLIST_FILE = delete2Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delete2.app/delete2";
-			};
-			name = Release;
-		};
-		23E0B317233CD7700067824F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC8LXPEH26;
-				INFOPLIST_FILE = delete2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = delete2;
-			};
-			name = Debug;
-		};
-		23E0B318233CD7700067824F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JC8LXPEH26;
-				INFOPLIST_FILE = delete2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = gigigo.delete2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = delete2;
 			};
 			name = Release;
 		};
@@ -569,24 +359,6 @@
 			buildConfigurations = (
 				23E0B311233CD7700067824F /* Debug */,
 				23E0B312233CD7700067824F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23E0B313233CD7700067824F /* Build configuration list for PBXNativeTarget "delete2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23E0B314233CD7700067824F /* Debug */,
-				23E0B315233CD7700067824F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23E0B316233CD7700067824F /* Build configuration list for PBXNativeTarget "delete2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23E0B317233CD7700067824F /* Debug */,
-				23E0B318233CD7700067824F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
